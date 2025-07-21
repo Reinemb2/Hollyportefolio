@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Holly Brou</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #aaa;
+    }
+
+    .hero {
+      background-color: #111;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .content-section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .content-section h2 {
+      border-bottom: 2px solid black;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .project {
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-top: 20px;
+      border-left: 5px solid #000;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .project:hover {
+      transform: translateX(5px);
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .hero h2 {
+        font-size: 1.4em;
+      }
+
+      .content-section {
+        padding: 30px 15px;
+      }
+
+      .project {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Holly Brou</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Étudiante en Master Marketing & Communication</h2>
+    <p>À la recherche d'une alternance <strong>dès septembre</strong><br>Mobile sur toute la France • Dynamique • Créative</p>
+  </section>
+
+  <section id="about" class="content-section">
+    <h2>À propos de moi</h2>
+    <p>Je suis Holly Brou, future étudiante en Master 1 de Marketing & Communication. Passionnée par la création de contenu, les projets engagés et l’univers des marques, je cherche une alternance pour mettre mes compétences au service d’une entreprise ambitieuse. Curieuse, mobile et déterminée.</p>
+  </section>
+
+  <section id="skills" class="content-section">
+    <h2>Compétences</h2>
+    <ul>
+      <li>Marketing digital & branding</li>
+      <li>Création visuelle (Adobe, Canva)</li>
+      <li>Communication 360° & stratégie de contenu</li>
+      <li>Gestion de projet & travail en équipe</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="content-section">
+    <h2>Projets marketing</h2>
+
+    <div class="project">
+      <h3>🎤 Affiches de concert écolo – Tiakola, SCH & Angèle</h3>
+      <p>Campagne de sensibilisation à l’écologie via une série d’affiches en noir et blanc, avec accents verts, pour un concert engagé mêlant rap et pop. Travail sur la direction artistique et le message d’impact.</p>
+    </div>
+
+    <div class="project">
+      <h3>🍫 Le chocolat des Français x Disney</h3>
+      <p>Projet de co-branding autour de l’univers enfantin et gourmand. Création d’une campagne visuelle et marketing autour d’un packaging ludique et d’une expérience client enchantée.</p>
+    </div>
+
+    <div class="project">
+      <h3>💧 Exportation de l’eau Évian à Chypre</h3>
+      <p>Étude de marché et stratégie d’export pour implanter Évian à Chypre. Adaptation culturelle, communication locale et positionnement haut de gamme ont été les piliers du projet.</p>
+    </div>
+
+    <div class="project">
+      <h3>📱 Sois Bio et Tais-toi – Digitalisation</h3>
+      <p>Projet de digitalisation d’une marque éthique. Déploiement sur les réseaux sociaux, création d’une ligne éditoriale engagée et refonte UX/UI du site e-commerce.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section">
+    <h2>Contact</h2>
+    <p>
+      📧 <a href="mailto:bhollymelikalofanny@gmail.com">bhollymelikalofanny@gmail.com</a><br>
+      📱 <a href="tel:+33666420629">06 66 42 06 29</a><br>
+      📍 Basée en Île-de-France, mobile sur toute la France
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Portfolio de Holly Brou</p>
+  </footer>
+</body>
+</html>
